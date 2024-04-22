@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<datasources>
+    <viewstore>
+        <location>localhost</location>
+        <user-name>root</user-name>
+        <password>1289</password>
+	<database_details>
+		<dbname>views</dbname>
+ 		<table_name></table_name>
+    </database_details>
+    </viewstore>
+    <rdbms_datasource>
+        <location>localhost</location>
+        <user-name>root</user-name>
+        <password>1289</password>
+	<database_details>
+		<dbname>qwe</dbname>
+ 		<table_name>employee</table_name>
+        </database_details>
+    </rdbms_datasource>
+    <rdbms_datasource>
+        <location>localhost</location>
+        <user-name>root</user-name>
+        <password>1289</password>
+	<database_details>
+		<dbname>marketdb</dbname>
+ 		<table_name>dim_cust</table_name>
+        </database_details>
+    </rdbms_datasource>
+    	
+    <csv_datasource>
+        <database_details>
+		<csvname>employee</csvname>
+ 		<csv_loc>/Users/jaideepkukkadapu/Downloads/employee.csv</csv_loc>
+        </database_details>
+    </csv_datasource>
+    <csv_datasource>
+        <database_details>
+		<csvname>star</csvname>
+ 		<csv_loc>/Users/jaideepkukkadapu/Documents/spe/ass6/star.csv</csv_loc>
+        </database_details>
+    </csv_datasource>
+    <xml_datasource>
+        <database_details>
+		<xmlname>xmlfile</xmlname>
+ 		<xml_loc>/home/xmlfile.xml</xml_loc>
+        </database_details>
+    </xml_datasource>
+</datasources>
